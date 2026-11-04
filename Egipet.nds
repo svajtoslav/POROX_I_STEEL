@@ -1,0 +1,763 @@
+[MEMBERS]
+TempMent(EG)   TurMent
+TempBarin(EG)  FrnBarin
+TempDama(EG)   FrnDama
+ArtPus1(EG)    ArtPus1
+ArtPus2(EG)    ArtPus2
+ArtPus3(EG)    ArtPus3
+ArtPus4(EG)    ArtPus4E
+ArtPus4L(EG)   ArtPus4LE
+ArtPus4G(EG)   ArtPus4GE
+ArtGau(EG)     EngKri
+ArtPus(EG)     EngKri
+UnitPus(EG)    PusEgp
+UnitKri(EG)    EgpKri
+UnitPop(EG)    TurPop
+UnitBar(EG)    TurKBar
+UnitEgrNG(EG)  FrnEgrNG
+UnitFlg(EG)    FrnFlg
+UnitFuz(EG)    EgpMus
+UnitFuzNG(EG)  EgpLuc
+UnitGre(EG)    EgpEgr
+UnitKDrg(EG)   EgpKCem
+UnitKEgr(EG)   FrnKEgr
+UnitKKar(EG)   FrnKKar
+UnitKArb(EG)   TurKArb
+UnitOf(EG)     TurOf
+UnitSap(EG)    FrnSap
+UnitVol(EG)    TurMec
+BldArs(EG)    EgpArs
+OsmKaz(EG)    OsmKaz
+BldKir(EG)    BldKir
+BldKaz(EG)     EgpKaz
+BldLes(EG)     BldLes
+BldMelN(EG)     EgpMelN
+BldCen(EG)     EgpCen
+BldDo1(EG)     EgpDo1
+BldDo2(EG)     EgpDo2
+BldDvo(EG)     EgpDvo
+BldHra(EG)     EgpHra
+BldKuz(EG)     FrnKuz
+BldSkl(EG)     EgpSkl
+BldMay(EG)     EgpMay
+BldKre(EG)     EgpKre
+BldKreHC(EG)   EgpKreHC
+BldTow(EG)     TurTow
+BldKro(EG)     BldKro
+BldKon(EG)     BldKon
+BldRudGold(EG) BldRudGln
+BldRudIron(EG) BldRudRud 
+BldRudCoal(EG) BldRudSel
+BldRudSton(EG) BldRudKam
+BldRudUgl(EG)  BldRudUgl
+BldFor(EG)     BldFor
+BldArt(EG)     BldArt
+BldRin(EG)     EgpMan
+UnitKUln(EG)   FrnKUln
+UnitKMam(EG)   EgpKMam
+UnitKKir(EG)   FrnKKir
+UnitKGus(EG)   FrnKGus
+UnitKGre(EG)   FrnKGre
+UnitKFlg(EG)   FrnKFlg
+UnitKDrgG(EG)  FrnKDrg
+UnitKEgrG(EG)  FrnKEgr
+Field(EG)      Field
+GuardEgpMus(EG)    GuardEgpMus
+GuardEgpEgr(EG)    GuardEgpEgr
+GuardEgpKMamL(EG)  GuardEgpKMamL
+GuardEgpKMamT(EG)  GuardEgpKMamT
+DRUGS(EG)               DRUGS
+DRUGK(EG)               DRUGK
+INSTI(EG)               INSTI
+KUZZE(EG)               KUZZE  
+SIPAX(EG)               SIPAX 
+ASKERY(EG)              ASKERY
+MAGA(EG)                MAGA
+LINTG(EG)               LINTG
+PROPOP(EG)              PROPOP 
+MUSIPUS(EG)             MUSIPUS
+DERVISH(EG)             DERVISH
+
+[FIXED_PRODUCE]
+
+BldCen(EG)     1
+UnitKri(EG)    0 1 A
+
+DRUGK(EG) 1
+INSTI(EG) 0 1 A
+
+
+INSTI(EG)  1 
+PROPOP(EG) 0 1 A
+
+DRUGS(EG)  2  
+KUZZE(EG)  0 1 A
+BldKir(EG) 1 1 A
+
+BldKir(EG)   1
+ArtPus4G(EG) 0 1 A
+
+BldDvo(EG) 2 
+DRUGS(EG)  8 0 A             
+DRUGK(EG)  8 1 A
+
+BldKaz(EG)        7
+UnitVol(EG)       0 1 A
+UnitFuz(EG)       1 1 A
+UnitFuzNG(EG)     2 1 A
+GuardEgpMus(EG)   3 1 A
+UnitOf(EG)        5 1 A
+UnitBar(EG)       6 1 A
+UnitPop(EG)       7 1 A
+
+KUZZE(EG)       4
+ArtPus4L(EG)    0  1 A
+ArtPus4(EG)     1  1 A
+ArtPus4G(EG)    2  1 A
+ArtPus3(EG)     4  1 A
+
+
+BldKre(EG)      11
+UnitKMam(EG)    0  0 A
+UnitKArb(EG)    1  0 A
+LINTG(EG)       2  0 A
+UnitOf(EG)      3  0 A
+UnitBar(EG)     4  0 A
+UnitPop(EG)     5  0 A
+MUSIPUS(EG)     6  0 A
+ArtPus4L(EG)    3  1 A
+ArtPus4(EG)     4  1 A
+ArtPus4G(EG)    5  1 A
+ArtPus3(EG)     6  1 A
+
+BldKreHC(EG)    1
+UnitGre(EG)     1  0 A
+
+BldArs(EG)       8
+ArtPus4L(EG)     0  1 A
+ArtPus4(EG)      1  1 A
+ArtPus4G(EG)     2  1 A
+ArtPus3(EG)      4  1 A
+UnitKDrg(EG)     0  0 A
+SIPAX(EG)        1  0 A 
+DERVISH(EG)      2  0 A
+UnitBar(EG)      4  0 A
+
+BldRin(EG)  4
+ASKERY(EG)  6 1 A
+UnitOf(EG)  7 1 A
+UnitBar(EG) 8 1 A
+UnitPop(EG) 9 1 A
+
+BldLes(EG)  1
+UnitKri(EG) 0 1 A
+
+UnitKri(EG)    16
+BldCen(EG)     0 0 A
+BldKaz(EG)     1 0 A
+BldDo1(EG)     2 0 A
+BldDo2(EG)     3 0 A
+BldTow(EG)     4 0 A
+BldArs(EG)     5 0 A
+OsmKaz(EG)     6 0 A
+BldMay(EG)     7 0 A
+BldSkl(EG)     0 1 A
+BldDvo(EG)     2 1 A
+BldHra(EG)     1 1 A
+BldRin(EG)     3 1 A
+BldKre(EG)     4 1 A
+BldKreHC(EG)   5 1 A
+BldMelN(EG)    6 1 A
+BldLes(EG)     7 1 A
+
+
+BldMelN(EG) 1
+Field(EG)  1 0 A
+
+BldHra(EG) 1
+UnitPop(EG) 0 1 A
+
+OsmKaz(EG)         7
+GuardEgpEgr(EG)    0 1 A
+MAGA(EG)           1 1 A
+UnitOf(EG)         3 1 A
+UnitBar(EG)        4 1 A
+UnitPop(EG)        5 1 A
+GuardEgpKMamL(EG)  0 0 A
+GuardEgpKMamT(EG)  1 0 A
+
+[ENABLED]
+DERVISH(EG)
+MUSIPUS(EG)
+PROPOP(EG)
+BldKir(EG)
+LINTG(EG) 
+BldMay(EG)
+MAGA(EG) 
+ASKERY(EG)
+SIPAX(EG)
+INSTI(EG)
+KUZZE(EG)
+DRUGS(EG)
+DRUGK(EG) 
+TempMent(EG)
+ArtPus3(EG)
+ArtPus4(EG)
+ArtPus4L(EG)
+ArtPus4G(EG)
+UnitKArb(EG)
+UnitPop(EG)
+ArtPus4(EG)
+UnitKDrg(EG)
+UnitKDrgG(EG)
+UnitKKir(EG)
+UnitKGre(EG)
+UnitKKar(EG)
+UnitKFlg(EG)
+UnitKEgr(EG)
+UnitKEgrG(EG)
+UnitKUln(EG)
+UnitKGus(EG)
+UnitKMam(EG)
+BldArs(EG)
+ArtGau(EG)
+ArtPus(EG)
+UnitSap(EG)
+UnitBar(EG)
+UnitOf(EG)
+BldRin(EG)
+BldSkl(EG)
+BldKuz(EG)
+BldLes(EG)
+BldKaz(EG)
+BldDvo(EG)
+BldDo2(EG)
+BldHra(EG)
+BldArt(EG)
+BldKon(EG)
+BldTow(EG)
+BldKro(EG)
+BldFor(EG)
+BldKre(EG)
+BldKreHC(EG)
+BldRudGold(EG)
+BldRudIron(EG)
+BldRudCoal(EG)
+BldRudSton(EG)
+BldMelN(EG)
+BldCen(EG)
+BldDo1(EG)
+UnitKri(EG)
+UnitFuz(EG)    
+UnitFuzNG(EG)  
+UnitVol(EG)    
+UnitGre(EG)    
+UnitEgrNG(EG)  
+GuardEgpMus(EG)    
+GuardEgpEgr(EG)    
+GuardEgpKMamL(EG)  
+GuardEgpKMamT(EG)
+OsmKaz(EG)  
+
+[UPGRADE]
+UPGUNIQ00(EG) U6 #POSITION 6 0 #LEVEL 1 UPGUNIQ00(EG) #COST 2 GOLD 1000 IRON 360 #TIME 300
+        DAMAGE WEAPONKIND MECH UnitVol(EG) +4
+KUZ033(EG) U30 #POSITION 2 0 #LEVEL 1 KUZ033(EG) #COST 2 GOLD 0 IRON 0 #TIME 500
+        BUILD GRP 1 UnitVol(EG) +33,3%
+UPG01(EG) A1 #POSITION 0 0 #LEVEL 1 UPG01AU #COST 2 GOLD 315 WOOD 190 #TIME 500
+	EFFECT_FOOD 200
+UPG08(EG) A8 #POSITION 0 1 #LEVEL 1 UPG08AU #COST 2 FOOD 4500 GOLD 300 #TIME 500
+	EFFECT_WOOD 200
+UPG10(EG) A10 #POSITION 0 2 #LEVEL 1 UPG10AU #COST 1 WOOD 9000 #TIME 500
+	BUILD GRP 21 BldRin(EG) BldSkl(EG) BldKuz(EG) BldLes(EG) BldKaz(EG) BldDvo(EG) BldDo2(EG) BldHra(EG) BldArt(EG) BldKon(EG) BldTow(EG) BldKro(EG) BldFor(EG) BldKre(EG) BldRudGold(EG) BldRudIron(EG) BldRudCoal(EG) BldRudSton(EG) BldMelN(EG) BldCen(EG) BldDo1(EG) -75%
+UPG11(EG) A11 #POSITION 1 2 #LEVEL 1 UPG11AU #COST 1  STONE 12500 #TIME 500
+	SHIELD GRP 7  BldKaz(EG) BldArt(EG) BldKon(EG) BldTow(EG) BldKro(EG) BldFor(EG) BldKre(EG) +80
+UPG16(EG) A16 #POSITION 2 0 #LEVEL 1 UPG16AU #COST 2 GOLD 2000 IRON 18150 #TIME 500
+	ATTRANGE ATTINDEX 0 GRP 6 BldKre(EG) BldTow(EG) BldKro(EG) BldFor(EG) ArtPus(EG) ArtGau(EG) +10%
+UPG17(EG) A17 #POSITION 3 0 #LEVEL 1 UPG17AU #COST 2 GOLD 300 IRON 2000 #TIME 500
+	ATTRANGE ATTINDEX 0 GRP 6 BldKre(EG) BldTow(EG) BldKro(EG) BldFor(EG) ArtPus(EG) ArtGau(EG) +10%
+UPG18(EG) A18 #POSITION 6 1 #LEVEL 1 UPG18AU #COST 2 GOLD 999 IRON 9999 #TIME 500
+	LIFE GRP 2 ArtPus(EG) ArtGau(EG) +150%
+UPG19(EG) A19 #POSITION 6 0 #LEVEL 1 UPG19AU #COST 1 GOLD 900 #TIME 500
+	ENABLE UNITS ArtGau(EG)
+UPG20(EG) A20 #POSITION 2 1 #LEVEL 1 UPG20AU #COST 1 COAL 6000 #TIME 500
+	RAZBROS GRP 2 ArtPus(EG) ArtGau(EG) -35%
+UPG21(EG) A21 #POSITION 6 2 #LEVEL 1 UPG21AU #COST 3 GOLD 999 WOOD 999 COAL 999 #TIME 500
+	HEALING GRP 2 ArtPus(EG) ArtGau(EG)
+UPG23(EG) A23 #POSITION 1 0 #LEVEL 1 UPG23AU #COST 2 WOOD 3500 FOOD 2000 #TIME 500
+	EFFECT_STONE +100
+UPG24(EG) A24 #POSITION 1 1 #LEVEL 1 UPG24AU #COST 1 COAL 12500  #TIME 500
+	EFFECT_STONE +200
+UPG26(EG) A26 #POSITION 3 2 #LEVEL 1 UPG26AU #COST 2 GOLD 200 FOOD 750 #TIME 500
+	HEALING GRP 21 UnitKUln(EG) UnitKMam(EG) UnitKKir(EG) UnitKGus(EG) UnitKGre(EG) UnitKFlg(EG) UnitKDrgG(EG) UnitKEgrG(EG) UnitKri(EG) UnitBar(EG) UnitEgrNG(EG) UnitFlg(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKEgr(EG) UnitKKar(EG) UnitOf(EG) UnitSap(EG) UnitVol(EG)
+UPG27(EG) A27 #POSITION 3 1 #LEVEL 1 UPG27AU #COST 1 COAL 9000 #TIME 500
+	RAZBROS GRP 2 ArtPus(EG) ArtGau(EG) -35%
+UPG32(EG) A32 #POSITION 2 2 #LEVEL 1 UPG32AU #COST 1 FOOD 8000 #TIME 500
+	COST GRP 2 UnitKKar(EG) UnitKGre(EG) GRP 3 IRON -15% FOOD -50% GOLD -15%
+UPG33(EG) A32 #POSITION 7 0 #LEVEL 1 UPG33AU #COST 1 GOLD 2000 #TIME 500
+	COST GRP 1 BldDo1(EG) GRP 1 GOLD -50%
+Bashnia(EG)PAUSE U14 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 80
+Bashnia(EG)PAUSE3 U15 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 60
+Bashnia(EG)PAUSE4 U16 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 50
+WoodUp01(EG) U9 #POSITION 4 0 #LEVEL 1 WoodUp01(EG) #COST 2 IRON 1000 GOLD 500 #TIME 2500
+	  EFFECT_WOOD +30%
+StoneUp01(EG) U10 #POSITION 3 0 #LEVEL 1 StoneUp01(EG) #COST 2 IRON 1000 GOLD 500 #TIME 250
+	  EFFECT_STONE +30%
+FoodUp01(EG) U21 #POSITION 2 0 #LEVEL 1 FoodUp01(EG) #COST 2 IRON 2000 GOLD 1000 #TIME 250
+	  EFFECT_FOOD +30%
+UNIQ000(EG) U21 #POSITION 0 0 #LEVEL 1 UNIQ000(EG) #COST 1 FOOD 5000 #TIME 100
+        BUILD GRP 1 UnitKri(EG) -50%
+UNIQ001(EG) U35 #POSITION 1 0 #LEVEL 1 UNIQ001(EG) #COST 2 GOLD 1500 IRON 2500 #TIME 100
+        DAMAGE WEAPONKIND MECH ASKERY(EG) +5
+UNIQ002(EG) U38 #POSITION 2 0 #LEVEL 1 UNIQ002(EG) #COST 4 IRON 550 GOLD 1000 FOOD 5000 WOOD 1000 #TIME 500
+        ENABLE UNITS GRP 1 MAGA(EG)
+UNIQ003(EG) U6 #POSITION 3 0 #LEVEL 1 UNIQ003(EG) #COST 4 GOLD 1500 IRON 500 FOOD 2000 WOOD 1000 #TIME 100
+        DAMAGE WEAPONKIND MECH SIPAX(EG) +8
+UNIQ004(EG) U30 #POSITION 4 0 #LEVEL 1 UNIQ004(EG) #COST 2 GOLD 4000 IRON 2500 #TIME 250
+        DAMAGE WEAPONKIND VISTREL UnitFuz(EG) +50
+UNIQ005(EG) U21 #POSITION 5 0 #LEVEL 1 UNIQ005(EG) #COST 2 FOOD 2000 IRON 500 #TIME 100
+        DAMAGE WEAPONKIND MECH UnitVol(EG) +3
+UNIQ006(EG) U21 #POSITION 5 0 #LEVEL 1 UNIQ006(EG) #COST 2 FOOD 2000 IRON 500 #TIME 100
+        DAMAGE WEAPONKIND MECH UnitFuz(EG) +5
+UNIQ007(EG) U7 #POSITION 0 1 #LEVEL 1 UNIQ007(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 UnitPop(EG) -90%
+UNIQ008(EG) U7 #POSITION 1 1 #LEVEL 1 UNIQ008(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 UnitFuz(EG) -50%
+UNIQ009(EG) U7 #POSITION 2 1 #LEVEL 1 UNIQ009(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 ASKERY(EG) -50%
+UNIQ010(EG) U7 #POSITION 3 1 #LEVEL 1 UNIQ010(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 GuardEgpMus(EG) -50%
+UNIQ011(EG) U7 #POSITION 4 1 #LEVEL 1 UNIQ011(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 MAGA(EG) -50%
+UNIQ012(EG) U7 #POSITION 5 1 #LEVEL 1 UNIQ012(EG) #COST 1 GOLD 1000 #TIME 100
+        BUILD GRP 1 UnitKMam(EG) -50%
+UNIQ013(EG) U7 #POSITION 0 1 #LEVEL 1 UNIQ013(EG) #COST 2 IRON 1000 GOLD 500 #TIME 100
+        BUILD GRP 1 ArtPus4L(EG) -90%
+UNIQ014(EG) U7 #POSITION 1 1 #LEVEL 1 UNIQ014(EG) #COST 2 IRON 1000 GOLD 500 #TIME 100
+        BUILD GRP 1 ArtPus4(EG) -90%
+UNIQ015(EG) U7 #POSITION 2 1 #LEVEL 1 UNIQ015(EG) #COST 2 IRON 1000 GOLD 500 #TIME 100
+        BUILD GRP 1 ArtPus4G(EG) -90%
+
+
+UNIQ016(EG) U30 #POSITION 0 4 #LEVEL 1 UNIQ016(EG) #COST 1 GOLD 50 #TIME 100
+        DAMAGE WEAPONKIND VISTREL UnitFuz(EG) +50
+UNIQ017(EG) U35 #POSITION 1 4 #LEVEL 1 UNIQ017(EG) #COST 1 GOLD 50 #TIME 100
+        DAMAGE WEAPONKIND MECH ASKERY(EG) +5
+UNIQ018(EG) U21 #POSITION 2 4 #LEVEL 1 UNIQ018(EG) #COST 1 GOLD 50 #TIME 100
+        BUILD GRP 1 UnitKri(EG) -50%
+UNIQ019(EG) U9 #POSITION 3 4 #LEVEL 1 UNIQ019(EG) #COST 1 GOLD 50 #TIME 100
+	  EFFECT_WOOD +30%
+UNIQ020(EG) U10 #POSITION 4 4 #LEVEL 1 UNIQ020(EG) #COST 1 GOLD 50 #TIME 100
+	  EFFECT_STONE +30%
+UNIQ021(EG) U21 #POSITION 5 4 #LEVEL 1 UNIQ021(EG) #COST 1 GOLD 50 #TIME 100
+	  EFFECT_FOOD +30%
+UNIQ022(EG) U7 #POSITION 6 4 #LEVEL 1 UNIQ022(EG) #COST 1 GOLD 50 #TIME 100
+        BUILD GRP 1 MUSIPUS(EG) -50%
+UNIQ023(EG) U7 #POSITION 7 4 #LEVEL 1 UNIQ023(EG) #COST 1 GOLD 50 #TIME 100
+        BUILD GRP 1 ASKERY(EG) -50%
+UNIQ024(EG) U7 #POSITION 8 4 #LEVEL 1 UNIQ024(EG) #COST 1 GOLD 50 #TIME 100
+        COST GRP 5 ASKERY(EG) UnitFuz(EG) UnitPop(EG) UnitVol(EG) MUSIPUS(EG) GRP 4 GOLD -50% IRON -50% COAL -50% FOOD -50%
+
+
+
+
+
+
+BldHra00(EG) U29  #POSITION 0 0 #LEVEL 5 BldHra00(FR) #COST 1 GOLD 250 #TIME 300
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+BldHra01(EG) U28  #POSITION 0 0 #LEVEL 2 BldHra01(FR) #COST 1 GOLD 200 #TIME 300
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+BldHra02(EG) U27  #POSITION 0 0 #LEVEL 3 BldHra02(FR) #COST 1 GOLD 150 #TIME 300
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+BldHra03(EG) U26  #POSITION 0 0 #LEVEL 4 BldHra03(FR) #COST 1 GOLD 100 #TIME 300
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPGBldHra02(EG) A10 #POSITION 7 2 #LEVEL 1 UPG24(FR) #COST 1 WOOD 0 #TIME 0
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPGBldHra03(EG) A10 #POSITION 7 2 #LEVEL 1 UPG24(FR) #COST 1 WOOD 0 #TIME 0
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPGBldHra04(EG) A10 #POSITION 7 2 #LEVEL 1 UPG24(FR) #COST 1 WOOD 0 #TIME 0
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPGBldHra05(EG) A10 #POSITION 7 2 #LEVEL 1 UPG24(FR) #COST 1 WOOD 0 #TIME 0
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPGBldHra06(EG) A10 #POSITION 7 2 #LEVEL 1 UPG24(FR) #COST 1 WOOD 0 #TIME 0
+        HEALING GRP 16 UnitPus(EG) UnitKri(EG) UnitPop(EG) UnitBar(EG) UnitFuz(EG) UnitFuzNG(EG) UnitGre(EG) UnitKDrg(EG) UnitKArb(EG) UnitOf(EG) UnitVol(EG) UnitKMam(EG) GuardEgpMus(EG) GuardEgpEgr(EG) GuardEgpKMamL(EG) GuardEgpKMamT(EG)
+UPPopHra01(EG) U8 #POSITION 0 1 #LEVEL 2 UPPopHra01(FR) #COST 4 IRON 100 GOLD 100 WOOD 300 FOOD 300 #TIME 300
+	DAMAGE WEAPONKIND MEDIK UnitPop(EG) +50
+
+BldKreHC(EG)PAUSE U24 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 2 COAL 250 IRON 350 #TIME 1000	
+        SINGLE_ATTPAUSE ATTINDEX 0 BldKreHC(EG) 80	
+BldKreHC(EG)PAUSE3 U20 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE #COST 2 COAL 250 IRON 350 #TIME 1000	
+        SINGLE_ATTPAUSE ATTINDEX 0 BldKreHC(EG) 60	
+BldKreHC(EG)PAUSE4 U34 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE #COST 2 COAL 250 IRON 350 #TIME 1000	
+        SINGLE_ATTPAUSE ATTINDEX 0 BldKreHC(EG) 40
+
+[UPGRADEPLACE]
+
+
+INSTI(EG) 13 
+UNIQ000(EG)
+UNIQ001(EG)
+UNIQ002(EG)
+UNIQ003(EG)
+UNIQ004(EG)
+UNIQ006(EG)
+UNIQ005(EG)
+UNIQ007(EG)
+UNIQ008(EG)
+UNIQ009(EG)
+UNIQ010(EG)
+UNIQ011(EG)
+UNIQ012(EG)
+
+BldKre(EG)  9
+UNIQ016(EG)
+UNIQ017(EG)
+UNIQ018(EG)
+UNIQ019(EG)
+UNIQ020(EG)
+UNIQ021(EG)
+UNIQ022(EG)
+UNIQ023(EG)
+UNIQ024(EG)
+
+
+BldRin(EG) 3
+FoodUp01(EG) 
+StoneUp01(EG) 
+WoodUp01(EG) 
+
+BldLes(EG) 1
+WoodUp01(EG) 
+               
+KUZZE(EG) 3
+UNIQ013(EG)
+UNIQ014(EG)
+UNIQ015(EG)
+
+
+
+BldKreHC(EG) 3
+BldKreHC(EG)PAUSE
+BldKreHC(EG)PAUSE3
+BldKreHC(EG)PAUSE4
+
+BldHra(EG) 5
+BldHra00(EG)
+BldHra01(EG)
+BldHra02(EG)
+BldHra03(EG)
+UPPopHra01(EG)
+
+BldKaz(EG) 1
+UPGUNIQ00(EG)
+
+BldTow(EG) 3 
+Bashnia(EG)PAUSE
+Bashnia(EG)PAUSE3
+Bashnia(EG)PAUSE4
+
+[UPGRADEENABLE]
+UNIQ000(EG)
+UNIQ001(EG)
+UNIQ002(EG)
+UNIQ003(EG)
+UNIQ004(EG)
+UNIQ005(EG)
+UNIQ006(EG)
+UNIQ007(EG)
+UNIQ008(EG)
+UNIQ009(EG)
+UNIQ010(EG)
+UNIQ011(EG)
+UNIQ012(EG)
+UNIQ013(EG)
+UNIQ014(EG)
+UNIQ015(EG)
+UNIQ016(EG)
+UNIQ017(EG)
+UNIQ018(EG)
+UNIQ019(EG)
+UNIQ020(EG)
+UNIQ021(EG)
+UNIQ022(EG)
+UNIQ023(EG)
+UNIQ024(EG)
+FoodUp01(EG)
+StoneUp01(EG)
+WoodUp01(EG)
+Bashnia(EG)PAUSE
+Bashnia(EG)PAUSE3
+Bashnia(EG)PAUSE4
+UPGUNIQ00(EG)
+BldHra00(EG)
+BldHra01(EG)
+BldHra02(EG)
+BldHra03(EG)
+UPPopHra01(EG)
+BldKreHC(EG)PAUSE
+BldKreHC(EG)PAUSE3
+BldKreHC(EG)PAUSE4
+KUZ033(EG)
+
+[UPGRADELINKS]
+UPG21(EG) 1 UPG21(EG)
+UPG26(EG) 1 UPG26(EG)
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+BldHra01(EG) 5 UPGBldHra02(EG) UPGBldHra03(EG) UPGBldHra04(EG) UPGBldHra05(EG) UPGBldHra06(EG)
+BldHra02(EG) 5 UPGBldHra02(EG) UPGBldHra03(EG) UPGBldHra04(EG) UPGBldHra05(EG) UPGBldHra06(EG)
+BldHra03(EG) 5 UPGBldHra02(EG) UPGBldHra03(EG) UPGBldHra04(EG) UPGBldHra05(EG) UPGBldHra06(EG)
+BldHra00(EG) 5 UPGBldHra02(EG) UPGBldHra03(EG) UPGBldHra04(EG) UPGBldHra05(EG) UPGBldHra06(EG)
+UPGUNIQ00(EG) 1 KUZ033(EG)
+
+
+
+
+[ACCESSCONTROL]
+UNIQ016(EG)     1 BldKre(EG)
+UNIQ017(EG)     1 BldKre(EG)
+UNIQ018(EG)     1 BldKre(EG)
+UNIQ019(EG)     1 BldKre(EG)
+UNIQ020(EG)     1 BldKre(EG)
+UNIQ021(EG)     1 BldKre(EG)
+UNIQ022(EG)     1 BldKre(EG)
+UNIQ023(EG)     1 BldKre(EG)
+UNIQ024(EG)     1 BldKre(EG)
+UNIQ007(EG)     1 PROPOP(EG)
+UNIQ008(EG)     1 PROPOP(EG)
+UNIQ009(EG)     1 PROPOP(EG)
+UNIQ010(EG)     1 PROPOP(EG)
+UNIQ011(EG)     1 PROPOP(EG)
+UNIQ012(EG)     1 PROPOP(EG)
+UNIQ013(EG)     1 PROPOP(EG)
+UNIQ014(EG)     1 PROPOP(EG)
+UNIQ015(EG)     1 PROPOP(EG)
+UNIQ000(EG)     1 DRUGK(EG)
+UNIQ001(EG)     1 DRUGK(EG)
+UNIQ002(EG)     1 DRUGK(EG) 
+UNIQ003(EG)     1 DRUGK(EG)
+UNIQ004(EG)     1 DRUGK(EG)
+UNIQ005(EG)     1 DRUGK(EG)
+UNIQ006(EG)     1 DRUGK(EG)
+BldKir(EG)      1 DRUGS(EG)
+UNIQ015(EG)     1 DRUGS(EG)
+UNIQ014(EG)     1 DRUGS(EG)
+UNIQ013(EG)     1 DRUGS(EG) 
+LINTG(EG)       1 BldDvo(EG)
+MAGA(EG)        3 BldDvo(EG) INSTI(EG) UNIQ002(EG)
+ASKERY(EG)      1 BldDvo(EG)
+INSTI(EG)       1 DRUGK(EG) 
+KUZZE(EG)       1 DRUGS(EG)
+DRUGS(EG)       3 BldDvo(EG) OsmKaz(EG) BldKre(EG) 
+DRUGK(EG)       3 BldDvo(EG) OsmKaz(EG) BldKre(EG) 
+UnitKMam(EG)    1 BldDvo(EG)
+BldArs(EG)      1 BldCen(EG)
+BldDo1(EG)      1 BldCen(EG)
+OsmKaz(EG)      1 BldCen(EG) 
+BldLes(EG)      1 BldCen(EG)
+BldMay(EG)      1 BldCen(EG)
+UnitGre(EG)     1 BldCen(EG)
+BldKaz(EG)      1 BldCen(EG) 
+BldSkl(EG)      1 BldCen(EG)
+BldDvo(EG)      2 BldKaz(EG)
+                  BldSkl(EG)
+BldRin(EG)      1 BldDvo(EG)
+BldDo2(EG)      2 BldDvo(EG)
+                  BldCen(EG)
+BldHra(EG)      1 BldCen(EG)
+BldTow(EG)      2 BldKaz(EG)
+                  BldSkl(EG)
+BldKre(EG)        1 BldKaz(EG)
+BldKreHC(EG)      1 BldKaz(EG)
+UnitSap(EG)     1 BldDvo(EG)
+UnitBar(EG)     1 BldDvo(EG)
+UnitOf(EG)      1 BldDvo(EG)
+UnitFuz(EG)   1 BldDvo(EG)
+UnitFuzNG(EG) 1 BldCen(EG)
+GuardEgpMus(EG)    1  BldHra(EG)
+GuardEgpEgr(EG)    2  BldKre(EG)
+                      BldHra(EG)
+GuardEgpKMamL(EG)  2  BldKre(EG)
+                      BldHra(EG)
+GuardEgpKMamT(EG)  2  BldKre(EG)
+                      BldHra(EG)
+UnitPop(EG) 1 BldHra(EG)
+BldMelN(EG) 1 BldCen(EG)
+
+[UNITLOCK]
+PROPOP(EG)   1 PROPOP(EG)
+BldKir(EG)   3 BldKir(EG)
+BldLes(EG)   2 BldLes(EG)
+BldMay(EG)   2 BldMay(EG)
+INSTI(EG)    1 INSTI(EG)     
+KUZZE(EG)    2 KUZZE(EG)
+DRUGS(EG)    1 DRUGS(EG)         
+DRUGK(EG)    1 DRUGK(EG)    
+BldSkl(EG)   4 BldSkl(EG)
+BldHra(EG)   1 BldHra(EG)
+BldDvo(EG)   1 BldDvo(EG)
+BldRin(EG)   1 BldRin(EG)
+BldKre(EG)   2 BldKre(EG) 
+BldKreHC(EG) 2 BldKreHC(EG)  
+GuardEgpEgr(EG)   255  GuardEgpEgr(EG)
+GuardEgpKMamL(EG) 255  GuardEgpKMamL(EG)
+GuardEgpKMamT(EG) 255  GuardEgpKMamT(EG)
+UnitGre(EG) 95 UnitGre(EG)
+//UnitKArb(EG) 150 UnitKArb(EG)
+//UnitKMam(EG) 100 UnitKMam(EG)
+//UnitKDrg(EG) 200 UnitKDrg(EG)
+BldArs(EG)   2 BldArs(EG)
+OsmKaz(EG) 2 OsmKaz(EG)
+UnitBar(EG) 25 UnitBar(EG)
+
+[CANSETDEST]
+BldKaz(EG)
+BldLes(EG)
+BldMelN(EG)
+BldCen(EG)
+BldDo1(EG)
+BldDo2(EG)
+BldDvo(EG)
+BldHra(EG)
+BldSkl(EG)
+BldMay(EG)
+BldKre(EG)
+BldTow(EG)
+BldKro(EG)
+BldKon(EG)
+BldKreHC(EG)
+BldRudGold(EG)
+BldRudIron(EG) 
+BldRudCoal(EG)
+BldRudSton(EG)
+BldRudUgl(EG)
+BldFor(EG)
+BldArt(EG)
+
+[PRIVATE]
+Bashnia(EG)PAUSE
+Bashnia(EG)PAUSE3
+Bashnia(EG)PAUSE4
+BldKreHC(EG)PAUSE
+BldKreHC(EG)PAUSE3
+BldKreHC(EG)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+EGIPET 68
+#GUARD
+GuardEgpMus(EG) 
+GuardEgpEgr(EG)
+GuardEgpKMamL(EG)
+GuardEgpKMamT(EG)
+#UNITS
+UnitKri(EG)
+UnitBar(EG)
+UnitFuz(EG)
+UnitFuzNG(EG)
+UnitGre(EG)
+UnitOf(EG)
+UnitVol(EG)
+MUSIPUS(EG)
+TempMent(EG)
+UnitPop(EG)
+DRUGS(EG)       
+DRUGK(EG) 
+ASKERY(EG) 
+MAGA(EG)
+LINTG(EG) 
+PROPOP(EG) 
+#LIGHTCAVALRY
+UnitKArb(EG)
+UnitKMam(EG)
+SIPAX(EG)
+DERVISH(EG)
+#HEAVYCAVALRY
+UnitKDrg(EG)
+#ARTILARY
+ArtPus3(EG)
+ArtPus4(EG)
+ArtPus4L(EG)
+ArtPus4G(EG)
+#SHIPS
+#BUILDINGS
+BldMelN(EG)
+BldKaz(EG)
+BldLes(EG)
+BldCen(EG)
+BldDo1(EG)
+BldDo2(EG)
+BldDvo(EG)
+BldHra(EG)
+BldKuz(EG)
+BldSkl(EG)
+BldArt(EG)
+BldKre(EG)
+BldKreHC(EG)
+BldTow(EG)
+BldKro(EG)
+BldKon(EG)
+BldFor(EG)
+BldRudIron(EG)
+BldRudSton(EG)
+BldRudGold(EG)
+BldRudUgl(EG)
+BldRudCoal(EG)
+BldMay(EG)
+BldRin(EG)
+BldArs(EG)
+OsmKaz(EG)
+INSTI(EG)  
+KUZZE(EG)
+BldKir(EG)
+#TEMP
+TempBarin(EG)
+TempDama(EG)
+
+[OFFICERS]
+UnitOf(EG) UnitBar(EG) UnitPop(EG) 3
+SQUARE 1 #SQUARE120   7 UnitFuz(EG) UnitVol(EG) GuardEgpMus(EG) ASKERY(EG) MAGA(EG) LINTG(EG) MUSIPUS(EG)      
+LINE   1 #LINE120COS  7 UnitFuz(EG) UnitVol(EG) GuardEgpMus(EG) ASKERY(EG) MAGA(EG) LINTG(EG) MUSIPUS(EG)    
+KARE   1 #KARE120COS  7 UnitFuz(EG) UnitVol(EG) GuardEgpMus(EG) ASKERY(EG) MAGA(EG) LINTG(EG) MUSIPUS(EG)    
+UnitKDrg(EG) UnitBar(EG) NONE 3
+SHER   1 #MOVR2COS45     3 UnitKDrg(EG) SIPAX(EG) DERVISH(EG)
+PRUS   1 #PRUS45COS      3 UnitKDrg(EG) SIPAX(EG) DERVISH(EG)
+TRI    1 #TRI1COS45      3 UnitKDrg(EG) SIPAX(EG) DERVISH(EG)
+UnitKArb(EG) NONE    3
+SHER   1 #MOVR2COS45     1 UnitKArb(EG) 
+PRUS   1 #PRUS45COS      1 UnitKArb(EG) 
+TRI    1 #TRI1COS45      1 UnitKArb(EG) 
+UnitKMam(EG) NONE    3
+SHER   1 #MOVR2COS45     1 UnitKMam(EG) 
+PRUS   1 #PRUS45COS      1 UnitKMam(EG) 
+TRI    1 #TRI1COS45      1 UnitKMam(EG) 
+TempMent(EG) NONE 1
+LINE   1 #LINE60MENTCOS  1 TempMent(EG)
+UnitGre(EG) NONE 1
+SQUARE 1 #LINE30COSEGR   1 UnitGre(EG) 
+GuardEgpEgr(EG) NONE 1
+SQUARE 1 #LINE30COSEGR   1 GuardEgpEgr(EG)
+UnitFuzNG(EG) NONE 2
+SQUAREEGP 1 #SQUARE120LUC   1 UnitFuzNG(EG)
+LINEEGP   1 #LINE120COSLUCEG  1 UnitFuzNG(EG)
+GuardEgpKMamT(EG) NONE    3
+SHER   1 #MOVR2COS45     1  GuardEgpKMamT(EG)
+PRUS   1 #PRUS45COS      1  GuardEgpKMamT(EG)
+TRI    1 #TRI1COS45      1  GuardEgpKMamT(EG)
+GuardEgpKMamL(EG) NONE    3
+SHER   1 #MOVR2COS45     1 GuardEgpKMamL(EG)
+PRUS   1 #PRUS45COS      1 GuardEgpKMamL(EG)
+TRI    1 #TRI1COS45      1 GuardEgpKMamL(EG)
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]
